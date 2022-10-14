@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jogoCategorias">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="226dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/categorias" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="150"
+        android:layout_height="50"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Matemática"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="150"
+        android:layout_height="50"
+        android:backgroundTint="@color/light_yellow"
+        android:text="Progresso"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="150"
+        android:layout_height="50"
+        android:backgroundTint="@color/material_dynamic_primary50"
+        android:text="Palavras"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="150"
+        android:layout_height="50"
+        android:backgroundTint="@color/purple_700"
+        android:text="Horas"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="150"
+        android:layout_height="50"
+        android:backgroundTint="@color/material_dynamic_primary20"
+        android:text="Português"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="244dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
